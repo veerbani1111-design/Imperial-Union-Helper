@@ -92,10 +92,6 @@ Imperial Union Bot offers a complete suite of tools for Discord server managemen
 <a name="quick-setup"></a>
 ## Quick Setup (Recommended for non-coders)
 
-### Video Tutorial
-For a detailed step-by-step setup guide, watch our comprehensive video tutorial:
-[**Imperial Union Official Bot Setup Tutorial**](https://www.youtube.com/@TouchDisc)
-
 ## Docker Deployment (Recommended)
 
 TitanBot is fully containerized for easy deployment.
