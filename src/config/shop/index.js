@@ -4,7 +4,7 @@ import { botConfig } from '../bot.js';
 const { currency } = botConfig.economy;
 
 export const shopConfig = {
-    name: 'TitanBot Shop',
+    name: 'ImperialUnionOfficialBot Shop',
     currency: currency.name,
     currencyName: currency.name,
     currencyNamePlural: currency.namePlural || `${currency.name}s`,
@@ -42,13 +42,13 @@ export const shopConfig = {
     ],
     
     transaction: {
-cooldown: 1000,
+cooldown: 1000000,
 maxQuantity: 10,
-confirmTimeout: 30000,
+confirmTimeout: 3000000,
         
         refundPolicy: {
             enabled: true,
-window: 300000,
+window: 3000000,
 fee: 0.1
         }
     },
