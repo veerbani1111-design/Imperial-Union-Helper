@@ -2,9 +2,7 @@
 
 **Imperial Union Official Bot** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
 
-[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/8kJBYhTGW9)
-[![Discord.js](https://img.shields.io/npm/v/discord.js?style=flat-square&labelColor=%23202225&color=%23202225&logo=npm&logoColor=white&logoWidth=20)](https://www.npmjs.com/package/discord.js)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23336791?logo=postgresql&logoColor=white&style=flat-square&logoWidth=20)
+[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/fH6cexnpz)
 
 ## Table of Contents
 
@@ -104,8 +102,8 @@ TitanBot is fully containerized for easy deployment.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   git clone https://github.com/codebymitch/ImperialUnionOfficialBot.git
+   cd ImperialUnionOfficialBot
    ```
 
 2. **Configure environment variables:**
@@ -138,7 +136,7 @@ Music uses [Lavalink v4](https://github.com/lavalink-devs/Lavalink) via [Riffy](
 The bot is automatically published to GitHub Container Registry on every push to main.
 
 ```bash
-docker pull ghcr.io/codebymitch/titanbot:main
+docker pull ghcr.io/codebymitch/imperialunionofficialbot:main
 ```
 
 <a name="manual-installation-steps"></a>
@@ -151,8 +149,8 @@ docker pull ghcr.io/codebymitch/titanbot:main
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   git clone https://github.com/codebymitch/ImperialUnionOfficialBot.git
+   cd ImperialUnionOfficialBot
    ```
 
 2. **Install Dependencies**
@@ -172,10 +170,10 @@ docker pull ghcr.io/codebymitch/titanbot:main
    GUILD_ID=your_discord_guild_id_here
 
    # PostgreSQL Configuration (Primary Database)
-   POSTGRES_URL=postgresql://postgres:yourpassword@localhost:5432/titanbot
+   POSTGRES_URL=postgresql://postgres:yourpassword@localhost:5432/imperialunionofficialbot
    POSTGRES_HOST=localhost
    POSTGRES_PORT=5432
-   POSTGRES_DB=titanbot
+   POSTGRES_DB=imperialunionofficialbot
    POSTGRES_USER=postgres
    POSTGRES_PASSWORD=yourpassword
    ```
