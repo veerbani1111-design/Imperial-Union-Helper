@@ -1,4 +1,4 @@
-# Contributing to TitanBot
+# Contributing to Imperial Union Official Bot
 
 Thank you for your interest in contributing to TitanBot! This guide covers local setup, project conventions, and what we look for in pull requests.
 
@@ -9,7 +9,7 @@ Thank you for your interest in contributing to TitanBot! This guide covers local
 - Documentation updates
 - Test coverage for behavior that is easy to regress
 
-Before starting large features, open an issue or discuss in the [support server](https://discord.gg/8kJBYhTGW9) so we can align on scope and avoid duplicate work.
+Before starting large features, open an issue or discuss in the [support server](https://discord.gg/fH6cexnpz) so we can align on scope and avoid duplicate work.
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ CI runs `npm test` on every pull request and on pushes to `main` and `master`. A
 
 ## Database & Migrations
 
-TitanBot uses PostgreSQL as its primary store. If PostgreSQL is unreachable at startup, the bot can operate in a **degraded in-memory mode** — but that mode is not suitable for production and should not be the only way you test persistence-related changes.
+ImperialUnionOfficialBot uses PostgreSQL as its primary store. If PostgreSQL is unreachable at startup, the bot can operate in a **degraded in-memory mode** — but that mode is not suitable for production and should not be the only way you test persistence-related changes.
 
 Useful commands:
 
